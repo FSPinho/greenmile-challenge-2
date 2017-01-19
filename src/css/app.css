@@ -1,0 +1,108 @@
+/* HELPERS */
+
+.align-right {
+	text-align: right;
+}
+
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+/* GENERAL */
+
+body {
+	background-color: #ECEFF1;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	line-height: 36px;
+	height: 36px;
+	text-transform: uppercase;
+	padding: 0 20px;
+	border-radius: 2px;
+	border: none;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+	outline: none;
+	background-color: #673AB7;
+	color: #FFFFFF; 
+	cursor: pointer;
+}
+
+button:hover {
+	border: none;
+	background-color: #7E57C2;
+}
+
+button:active {
+	border: none;
+	background-color: #512DA8;
+}
+
+button.accent {
+	background-color: #EC407A;
+}
+button.accent:hover {
+	background-color: #F06292;
+}
+
+button.accent:active {
+	background-color: #C2185B;
+}
+
+button.icon {
+	padding: 0px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+
+button.icon i {
+	line-height: 36px;
+}
+
+input[type="text"], textarea {
+	width: calc(100% - 16px);
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="datetime-local"], textarea, select {
+	margin: 8px 0;
+	border: 1px solid #CFD8DC;
+	outline: none;
+	padding: 8px 8px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, textarea:focus, select:focus {
+	border: 1px solid #C2185B;
+} 
+
+/* FORM */
+
+.form {
+	width: 640px;
+	margin: auto;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.form-section {
+	background-color: #EFEFEF;
+	padding: 20px;
+	margin: 8px 0;
+	position: relative;
+}
+
+.form-question {
+	margin: 8px 0;
+	padding: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+	position: relative;
+}
+
+.form-label {
+	display: block;
+}
